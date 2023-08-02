@@ -21,6 +21,13 @@ export default function Home() {
       <br/>
       <br/>
       <button onClick={()=>navigate("/login")}> Go to login page</button>
+      <br/>
+      <br/>
+      <button onClick={()=>navigate("/clientDataFetch")}> Go to client data </button>
+      <br/>
+      <br/>
+      <button onClick={()=>navigate("/serverDataFetch")}> Go to Server data </button>
+      
     </main>
   )
 }
